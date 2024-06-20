@@ -1,0 +1,42 @@
+{
+  "exchangeable1_stamp_count": 4,
+  "exchangeable2_stamp_count": 7,
+  "stamp": {
+    "6bad84fe78a9e711": {
+      "name": "スタンプ1",
+      "description": "設置場所: 受付",
+      "image": "./image/front.webp",
+      "image-desc" : "1Fの交換所付近"
+    },
+    "372a925b304a7a86": {
+      "name": "スタンプ2",
+      "description": "設置場所: 1F",
+      "image": "./image/1F.webp"
+    },
+    "802bc53a48cd6dc2": {
+      "name": "スタンプ3",
+      "description": "設置場所: 2F",
+      "image": "./image/2F-1.webp"
+    },
+    "3cdac26adb64a973": {
+      "name": "スタンプ4",
+      "description": "設置場所: 2F",
+      "image": "./image/2F-2.webp"
+    },
+    "f1d17b2b1463e4c5": {
+      "name": "スタンプ5",
+      "description": "設置場所: 3F",
+      "image": "./image/3F.webp"
+    },
+    "f99e0837225e7fed": {
+      "name": "スタンプ6",
+      "description": "設置場所: 4F",
+      "image": "./image/4F.webp"
+    },
+    "e64ed7e3c0dc3d6f": {
+      "name": "スタンプ7",
+      "description": "設置場所: 5F",
+      "image": "./image/5F.webp"
+    }
+  }
+}

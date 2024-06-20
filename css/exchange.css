@@ -1,0 +1,90 @@
+main {
+  background-image: url(../image/exchange-background.webp);
+}
+#exchange-loading {
+  text-align: center;
+  size: 15px;
+}
+.title {
+  font-family: "Rampart One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  margin: 10px;
+}
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+#button-background1,
+#button-background2 {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 400px;
+  height: 60px;
+  border: #fff;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+@media (max-width: 400px) {
+  #button-background1,
+  #button-background2 {
+    max-width: calc(100vw - 20px);
+  }
+  #slider1.unlocked,
+  #slider2.unlocked {
+    max-width: calc(100vw - 20px);
+  }
+}
+#slider1,
+#slider2 {
+  position: absolute;
+  left: -10px;
+  background-color: #000;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#slider1.unlocked,
+#slider2.unlocked {
+  width: inherit;
+  left: 0 !important;
+  height: inherit;
+  border-radius: inherit;
+}
+.material-icons {
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide-text1,
+.slide-text2 {
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 37px;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  font-size: 14px;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+}

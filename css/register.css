@@ -1,0 +1,41 @@
+main {
+  background-image: url(../image/register-backgroud.webp);
+}
+img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#title,
+#loading {
+  text-align: center;
+}
+#description {
+  text-align: center;
+}
+.confirm-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.confirm-button:hover {
+  background-color: #0056b3;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.confirm-button:active {
+  transform: scale(0.98);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}

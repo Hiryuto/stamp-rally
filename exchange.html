@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/gh/Joe12387/detectIncognito@main/dist/es5/detectIncognito.min.js"></script>
+    <link rel="stylesheet" href="./css/exchange.css?v=5" />
+    <link rel="stylesheet" href="./css/common.css?v=5" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <title>スタンプラリー交換ページ</title>
+  </head>
+  <body>
+    <main id="main">
+      <h1 class="title">景品交換</h1>
+      <p>スタンプを全て集めると、景品と交換できます。</p>
+      <p>
+        景品を交換するには、この画面を<br />
+        1F 景品交換ブースにいるスタッフに見せて<br />
+        お声がけください。
+        <span style="color: red; font-weight: bold"
+          >なお、景品は各部先着順でなくなり次第終了します。</span
+        >
+      </p>
+      <h2>特典の交換に関する注意事項</h2>
+      <p>
+        <span>※「特典を受け取る」ボタンは、</span>
+        <span>スタッフが確認して押下します。</span>
+        <span>景品を受け取る前に間違えて</span>
+        <span>ボタンを押してしまった場合、</span>
+        <span>景品を受け取る事ができなくなりますので</span>
+        <span>ご注意ください。</span><br />
+        <span>※ おひとり様1回のみ参加できます。</span>
+      </p>
+      <h1>交換リスト</h1>
+      <h1 id="exchange-loading">ロード中...</h1>
+      <div id="exchange-list" hidden>
+        <h2>交換場所　1階　下駄箱前</h2>
+        <p style="color: red; font-weight: bold">交換は10:30頃開始予定です</p>
+        <h2>交換品：お菓子セット</h2>
+        <h3 id="stamp-count1">交換に必要なスタンプの数:</h3>
+        <div id="button-background1">
+          <span class="slide-text1">交換するには右にスワイプ</span>
+          <div id="slider1">
+            <p id="locker1" class="material-icons"></p>
+          </div>
+        </div>
+        <h2>交換品：文具セット</h2>
+        <h3 id="stamp-count2">交換に必要なスタンプの数:</h3>
+        <div id="button-background2">
+          <span class="slide-text2">交換するには右にスワイプ</span>
+          <div id="slider2">
+            <p id="locker2" class="material-icons"></p>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div class="bottom-nav">
+        <div class="menu-item">
+          <span class="icon">🏠</span>
+          <span class="text">ホーム</span>
+        </div>
+        <div class="menu-item">
+          <span class="icon">🎁</span>
+          <span class="text">交換</span>
+        </div>
+      </div>
+    </main>
+    <script src="./js/check.js?v=5"></script>
+    <script src="./js/exchange.js?v=5"></script>
+    <script src="./js/common.js?v=5"></script>
+  </body>
+</html>
